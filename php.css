@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Josefin Sans', sans-serif;
+}
+body{
+    background: url(/assets/image/wallpaper.jpg) no-repeat;
+    background-size: cover !important;
+    background-position: left;
+    height: 90vh;
+    background-color: #f3f5f9;
+}
+
+.navbar {
+    background-color: transparent !important;
+    height: 15vh;
+    border-bottom: 1px solid #0E6EB8 !important;
+    font-size: 3.5vh !important;
+    justify-content: center;
+}
+.imgLanding{
+    position: absolute;
+    background-size: cover;
+}
+.log{
+    cursor: default;
+    color: black;
+}
+.log:hover{
+    display: block;
+    padding:20px;
+    background-color: #0E6EB8;
+    text-decoration: none;
+    color: white;
+}
+.form {
+    background-color: transparent;
+    
+}
+
+.sub-form {
+    margin-top: 50px;
+    background-color: rgb(255, 255, 255, 0.5) !important;
+    border: 1px solid #0E6EB8;
+    border-radius: 10px;
+}
+
+.sign {
+    text-align: center;
+    color: #0E6EB8;
+}
+.button-1 {
+    background-color: #0E6EB8;
+    border: none;
+    color: whitesmoke;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    
+}
+.table{
+    color: black;
+}
+
+.sub1{
+    background-color: transparent;
+    border-color: #0E6EB8;
+}
+.wrapper{
+    display: flex;
+    position: relative;
+  }
+  
+  .wrapper .sidebar{
+    width: 200px;
+    height: 100%;
+    background: #4b4276;
+    padding: 30px 0px;
+    position: fixed;
+  }
+  
+  .wrapper .sidebar h2{
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .wrapper .sidebar ul li{
+    padding: 15px;
+    border-bottom: 1px solid #bdb8d7;
+    border-bottom: 1px solid rgba(0,0,0,0.05);
+    border-top: 1px solid rgba(255,255,255,0.05);
+  }    
+  
+  .wrapper .sidebar ul li a{
+    color: #bdb8d7;
+    display: block;
+  }
+  
+  .wrapper .sidebar ul li a .fas{
+    width: 25px;
+  }
+  
+  .wrapper .sidebar ul li:hover{
+    background-color: #594f8d;
+  }
+      
+  .wrapper .sidebar ul li:hover a{
+    color: #fff;
+  }
+   
+  .wrapper .sidebar .social_media{
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+  }
+  
+  .wrapper .sidebar .social_media a{
+    display: block;
+    width: 40px;
+    background: #594f8d;
+    height: 40px;
+    line-height: 45px;
+    text-align: center;
+    margin: 0 5px;
+    color: #bdb8d7;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+  }
+  
+  .wrapper .main_content{
+    width: 100%;
+    margin-left: 200px;
+  }
+  
+  .wrapper .main_content .header{
+    padding: 20px;
+    background: #fff;
+    color: #717171;
+    border-bottom: 1px solid #e0e4e8;
+  }
+  
+  .wrapper .main_content .info{
+    margin: 20px;
+    color: #717171;
+    line-height: 25px;
+  }
+  
+  .wrapper .main_content .info div{
+    margin-bottom: 20px;
+  }
+  .nav-item{
+    text-align: end;
+  }
+.fa-user {
+    background-color: #363b41;
+    border-radius: 3px 0px 0px 3px;
+    color: #606468;
+    display: block;
+    float: left;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    width: 50px;
+}
+.fa-lock {
+  background-color: #363b41;
+  border-radius: 3px 0px 0px 3px;
+  color: #606468;
+  display: block;
+  float: left;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  width: 50px;
+}
+#login form input[type="text"], input[type="password"] {
+  background-color: #3b4148;
+  color: white;
+  margin-bottom: 1em;
+  padding: 0 16px;
+  width: 230px;
+}
+
+#login form input {
+  height: 50px;
+}
+#login form input[type="submit"] {
+  background-color: #ea4c88;
+  color: #eee;
+  font-weight: bold;
+  text-transform: uppercase;
+  width: 280px;
+}
+#login form input {
+  height: 50px;
+}
+input {
+  border: none;
+  font-family: 'Open Sans', Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.5em;
+  padding: 0;
+  -webkit-appearance: none;
+}
+.contLog{
+  display: flex;
+  justify-content: center;
+  margin-top: 200px;
+
+}
+.clearfix{
+  border: none;
+}
